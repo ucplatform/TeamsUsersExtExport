@@ -36,7 +36,7 @@ Write-Host "Please input the shared key from the email"
 $key = Read-Host
 
 #The target URL with SAS Token
-$uri = "https://samsteamsextension.blob.core.windows.net/msteamsextension/$($CustID)?sp=racw&st=2023-10-06T13:57:23Z&se=2024-10-31T22:57:23Z&spr=https&sv=2022-11-02&sr=c&sig=$key"
+$uri = "https://samsteamsextension.blob.core.windows.net/msteamsextension?sp=acwl&st=2024-10-04T12:24:41Z&se=2026-10-01T20:24:41Z&spr=https&sv=2022-11-02&sr=c&sig=$key"
 
 
 #Define required Headers
